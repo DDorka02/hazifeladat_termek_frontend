@@ -2,22 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  //const {termekLista}= useContext(ApiContext)
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Libri könyvek: </h1>
       </header>
+      <article>
+        
+      </article>
+      <footer>
+        <p> Dobszay Dorka</p>
+      </footer>
     </div>
   );
 }
